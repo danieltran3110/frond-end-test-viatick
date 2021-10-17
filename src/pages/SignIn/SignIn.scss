@@ -1,0 +1,25 @@
+
+
+.signin {
+    background-color: #F6C75C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__inner {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px 30px 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

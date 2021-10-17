@@ -123,5 +123,130 @@
 
     &__right {
         width: 85%;
+        padding: 20px 10px;
+
+        .top {
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 5px 20px 50px #0000001a;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            align-items: center;
+
+            .text {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            select {
+                width: 100%;
+                max-width: 400px;
+                border-radius: 30px;
+                background-color: #F8F9FA;
+                border: 1px solid #E7E7E7;
+                padding: 15px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+
+        .bottom {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            &__left {
+                width: 70%;
+                padding: 15px;
+                background-color: #fff;
+                box-shadow: 5px 20px 50px #0000001a;
+                margin-right: 10px;
+                border-radius: 20px;
+                padding-top: 30px;
+
+                .chart {
+                    
+                }
+
+                .wrap {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    margin-bottom: 30px;
+
+                    .title {
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    .filter {
+                        display: flex;
+
+                        .text2 {
+                            padding: 15px 20px;
+                            border-radius: 20px;
+                            font-weight: bold;
+                            color: #3D53EE;
+
+                            &.active, &:hover {
+                                background-color: #E8EBFC;
+                            }
+                        }
+                    }
+
+                    .wrap-chart {
+                    }
+                }
+            }
+
+            &__right {
+                width: 30%;
+                padding: 15px;
+                background-color: #fff;
+                box-shadow: 5px 20px 50px #0000001a;
+                margin-left: 10px;
+                border-radius: 20px;
+                padding-top: 30px;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                }
+
+                .list {
+                    .item {
+                        display: flex;
+                        width: 100%;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 15px;
+
+                        .wrap {
+                            display: flex;
+                            align-items: center;
+
+                            span {
+                                padding: 20px;
+                                font-weight: bold;
+                                background-color: #E4E4E5;
+                                border-radius: 20px;
+                            }
+
+                            p {
+                                margin-left: 10px;
+                            }
+                        }
+
+                        .text3 {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
